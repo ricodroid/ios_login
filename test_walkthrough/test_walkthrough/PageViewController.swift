@@ -23,7 +23,8 @@ class PageViewController: UIPageViewController {
         let pageViewA = storyboard!.instantiateViewController(withIdentifier: "AViewController") as! AViewController
         let pageViewB = storyboard!.instantiateViewController(withIdentifier: "BViewController") as! BViewController
         let pageViewC = storyboard!.instantiateViewController(withIdentifier: "CViewController") as! CViewController
-        pageViewControllers = [pageViewA, pageViewB, pageViewC]
+        let pageViewD = storyboard!.instantiateViewController(withIdentifier: "DViewController") as! DViewController
+        pageViewControllers = [pageViewA, pageViewB, pageViewC, pageViewD]
 
         //最初に表示するページの指定
         self.setViewControllers([pageViewControllers[0]], direction: .forward, animated: true, completion: nil)
@@ -37,6 +38,10 @@ class PageViewController: UIPageViewController {
             self.setViewControllers([self.pageViewControllers[2]], direction: .forward, animated: true, completion: nil)
         }
         pageViewC.onButtonTapped = {
+            self.currentPage = 3
+            self.setViewControllers([self.pageViewControllers[3]], direction: .forward, animated: true, completion: nil)
+        }
+        pageViewD.onButtonTapped = {
             self.currentPage = 0
             self.setViewControllers([self.pageViewControllers[0]], direction: .forward, animated: true, completion: nil)
         }
