@@ -43,8 +43,12 @@ class PageViewController: UIPageViewController {
         }
         pageViewD.onButtonTapped = {
             self.currentPage = 0
-            self.setViewControllers([self.pageViewControllers[0]], direction: .forward, animated: true, completion: nil)
+//            self.setViewControllers([self.pageViewControllers[0]], direction: .forward, animated: true, completion: nil)
+            let response = DataController.login(email: "himeno11+test2@gmail.com", password: "PVG2023")
+            
+            print("###: \(response)")
         }
+            
     }
 
     override func didReceiveMemoryWarning() {

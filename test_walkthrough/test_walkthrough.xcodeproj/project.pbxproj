@@ -19,6 +19,8 @@
 		230BBB23238114BA0026AF08 /* CViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BBB20238114BA0026AF08 /* CViewController.swift */; };
 		230BBB25238114C10026AF08 /* PageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230BBB24238114C10026AF08 /* PageViewController.swift */; };
 		3FF74A7D2B7A04A900A92D95 /* DViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74A7C2B7A04A900A92D95 /* DViewController.swift */; };
+		3FF74A852B7A36AF00A92D95 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74A842B7A36AF00A92D95 /* DataManager.swift */; };
+		3FF74A872B7A37D600A92D95 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FF74A862B7A37D600A92D95 /* DataController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		230BBB20238114BA0026AF08 /* CViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CViewController.swift; sourceTree = "<group>"; };
 		230BBB24238114C10026AF08 /* PageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewController.swift; sourceTree = "<group>"; };
 		3FF74A7C2B7A04A900A92D95 /* DViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DViewController.swift; sourceTree = "<group>"; };
+		3FF74A842B7A36AF00A92D95 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		3FF74A862B7A37D600A92D95 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 				230BBAF5238114650026AF08 /* Assets.xcassets */,
 				230BBAF7238114650026AF08 /* LaunchScreen.storyboard */,
 				230BBAFA238114650026AF08 /* Info.plist */,
+				3FF74A842B7A36AF00A92D95 /* DataManager.swift */,
+				3FF74A862B7A37D600A92D95 /* DataController.swift */,
 			);
 			path = test_walkthrough;
 			sourceTree = "<group>";
@@ -272,8 +278,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				230BBAED238114630026AF08 /* AppDelegate.swift in Sources */,
+				3FF74A852B7A36AF00A92D95 /* DataManager.swift in Sources */,
 				230BBB22238114BA0026AF08 /* BViewController.swift in Sources */,
 				230BBB23238114BA0026AF08 /* CViewController.swift in Sources */,
+				3FF74A872B7A37D600A92D95 /* DataController.swift in Sources */,
 				230BBB25238114C10026AF08 /* PageViewController.swift in Sources */,
 				3FF74A7D2B7A04A900A92D95 /* DViewController.swift in Sources */,
 				230BBB21238114BA0026AF08 /* AViewController.swift in Sources */,
